@@ -9,7 +9,7 @@ def summon_captain_planet(planet_calls)
 end
 
 def long_planeteer_calls(long_calls)
-  long_calls.include?
+  long_calls.include?(long_calls[]])
   #iterate through array
   #for each element in array, find length of that element
   ##if element length > 4
