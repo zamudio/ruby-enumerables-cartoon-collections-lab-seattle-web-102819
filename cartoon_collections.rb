@@ -10,14 +10,13 @@ end
 
 def long_planeteer_calls(long_calls)
   #array.select{|word| word.length > 3}
- => ["hello", "goodbye"]
+  #=> ["hello", "goodbye"]
   
-  #iterate through array
-  #for each element in array, find length of that element
-  ##if element length > 4
-  ###return true
-  ##else
-  ###return false
+  if long_calls.select{|call| call.length > 4}
+    return true
+  else
+    return false
+  end
 end
 
 def find_the_cheese# code an argument here
