@@ -13,9 +13,9 @@ def long_planeteer_calls(long_calls)
   #=> ["hello", "goodbye"]
   
   if long_calls.find{|call| call.length > 4}
-    return true
+    puts true
   elsif long_calls.select{|call| call.length <= 4}
-    return false
+    puts false
   end
 end
 
