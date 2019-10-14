@@ -12,13 +12,12 @@ def long_planeteer_calls(long_calls)
   #array.select{|word| word.length > 3}
   #=> ["hello", "goodbye"]
   
-  long_calls.select{|call| call.length > 4} #long = "earth" and short = []
-  
-  if #
-    #
-  else
-    #
+  if long_calls.select{|call| call.length > 4}
+    value = true
+  elsif long_calls.select{|call| call.length < 5}
+    value = false
   end
+  value
 end
 
 def find_the_cheese# code an argument here
