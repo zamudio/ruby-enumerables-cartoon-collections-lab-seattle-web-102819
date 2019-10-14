@@ -14,10 +14,9 @@ def long_planeteer_calls(long_calls)
   
   long = long_calls.select{|call| call.length > 4}
   if long.include?("")
-  
-    return TRUE
-  elsif long_calls.select{|call| call.length < 5}
-    return FALSE
+    return
+  else
+    return true
   end
 end
 
