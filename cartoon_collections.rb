@@ -24,6 +24,7 @@ def find_the_cheese(ingredients)
     return string_cheese
   else
     return nil
+  end
   # the array below is here to help
   #cheese_types = ["cheddar", "gouda", "camembert"]
 end
