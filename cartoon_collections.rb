@@ -12,11 +12,12 @@ def long_planeteer_calls(long_calls)
   #array.select{|word| word.length > 3}
   #=> ["hello", "goodbye"]
   
-  long = long_calls.select{|call| call.length > 4}
-  if long.include?("")
-    return
+  long_calls.select{|call| call.length > 4} #long = "earth" and short = []
+  
+  if #
+    #
   else
-    return true
+    #
   end
 end
 
