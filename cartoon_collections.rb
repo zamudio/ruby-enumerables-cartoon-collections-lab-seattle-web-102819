@@ -1,3 +1,5 @@
+###collect, find, map, include?
+
 def roll_call_dwarves(names)
   names.each_with_index{|names, i| puts "#{i+1}: #{names}"}
 end
