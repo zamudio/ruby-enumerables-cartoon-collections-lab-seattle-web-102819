@@ -13,7 +13,7 @@ def long_planeteer_calls(long_calls)
   #=> ["hello", "goodbye"]
   
   long = long_calls.select{|call| call.length > 4}
-  if long == 
+  if long.length 
     value = true
   else
     value = false
