@@ -20,7 +20,10 @@ end
 def find_the_cheese(ingredients)
   cheese_type = ingredients.select{|food| food.include?("cheddar") || food.include?("gouda") || food.include?("camembert")}
   if cheese_type.length > 0
-    cheese_type.to_s
+    cheese_type.join("")
+    puts cheese_type
+  else
+    return nil
   # the array below is here to help
   #cheese_types = ["cheddar", "gouda", "camembert"]
 end
