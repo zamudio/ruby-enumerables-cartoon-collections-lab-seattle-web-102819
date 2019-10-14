@@ -9,16 +9,12 @@ def summon_captain_planet(planet_calls)
 end
 
 def long_planeteer_calls(long_calls)
-  #array.select{|word| word.length > 3}
-  #=> ["hello", "goodbye"]
-  
   long = long_calls.select{|call| call.length > 4}
   if long.length > 0
-    value = true
+    return true
   else
-    value = false
+    return false
   end
-  value
 end
 
 def find_the_cheese# code an argument here
