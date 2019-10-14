@@ -14,7 +14,7 @@ def long_planeteer_calls(long_calls)
   
   if long_calls.select{|call| call.length > 4}
     return TRUE
-  elsif long_calls.select{|call| call.inccall.length < 4}
+  elsif long_calls.select{|call| call.length < 5}
     return FALSE
   end
 end
