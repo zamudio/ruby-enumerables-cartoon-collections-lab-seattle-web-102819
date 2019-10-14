@@ -13,7 +13,7 @@ def long_planeteer_calls(long_calls)
   #=> ["hello", "goodbye"]
   
   long = long_calls.select{|call| call.length > 4}
-  if long
+  if long.include?("")
   
     return TRUE
   elsif long_calls.select{|call| call.length < 5}
