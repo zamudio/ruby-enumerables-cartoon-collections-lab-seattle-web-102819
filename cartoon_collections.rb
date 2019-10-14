@@ -1,5 +1,3 @@
-###collect, find, map, include?
-
 def roll_call_dwarves(names)
   names.each_with_index {|names, i| puts "#{i+1}: #{names}"}
 end
@@ -26,6 +24,4 @@ def find_the_cheese(ingredients)
   else
     return nil
   end
-  # the array below is here to help
-  #cheese_types = ["cheddar", "gouda", "camembert"]
 end
